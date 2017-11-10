@@ -3,42 +3,45 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>DOM</title>
+    <title>Mini-zoo</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
     <!--solo el js se utilizara para elementos de js-->
-    <table class="board board-js">
-        <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+        <h1 class="title">Mini-zoo</h1>
+
+        <select id="select" title="opciones de filtros">
+            <option value="" hidden>Selecciona una opción</option>
+            <option value="original">Original</option>
+            <option value="sepia">Sepia</option>
+            <option value="white-black">Blanco y negro</option>
+            <option value="negative-colors">Invertir colores</option>
+        </select>
+
+        <figure>
+          <img src="assets/images/erizo.jpg" alt="erizo" class="animal">
+        </figure>
+        <figure>
+          <img src="assets/images/chow-chow.jpg" alt="chow-chow" class="animal">
+        </figure>
+        <figure>
+          <img src="assets/images/tortuga-marina.jpg" alt="tortuga-marina" class="animal">
+        </figure>
+        <figure>
+          <img src="assets/images/oso-perezoso.jpg" alt="oso-perezoso"class="animal">
+        </figure>
+        <figure>
+          <img src="assets/images/tortuga-terrestre.jpg" alt="tortuga-terrestre" class="animal">
+        </figure>
+        <figure>
+          <img src="assets/images/koala.jpg" alt="koala"> 
+        </figure>
+      </div>
 
     <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
-
-<!--matrix [fila][columna], para poder construir el buscamina-->
