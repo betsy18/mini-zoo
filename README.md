@@ -31,11 +31,6 @@ Realizacion de un mini-zoo, básico
 * header: elemento contenedor para los encabezados.
 * div: contenedores generales.
 * h1: tipo de texto para los encabezados.
-* a: etiquetas de redirección de una pag.
-* section: contenedores para los textos o parrafos.
 * figure: contenedores de imágenes.
 * img: etiqueta para las imágenes.
-* hr: línea divisoria horizontal.
-* footer: contenedor para el pie de página.
-* p: etiquetas de párrafo.
-* fontAwesome: cdn, se genera un link para poder utilizar iconos desde otra pagina
+* select: para realizar un combo.
